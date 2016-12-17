@@ -35,15 +35,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
          KC_LCTL, KC_LALT, KC_LGUI, KC_LSFT, KC_SPC,                         \
          KC_ESC, KC_TAB,                                                     \
          KC_BSPC, KC_FN0, KC_MINS, KC_QUOT, KC_ENT),                         \
-  /* 1: punctuation and numbers */
+  /// Layer 1
+  // Numer row from 1 to 0
   /*
-  *  !    @     up     {    }        ||     pgup    7     8     9    *
   *  #  left   down  right  $        ||     pgdn    4     5     6    +
   *  [    ]      (     )    &        ||       `     1     2     3    \
   * L2  insert super shift bksp ctrl || alt space   fn    .     0    =
   */
-  KEYMAP(SHIFT(KC_1), SHIFT(KC_2), KC_UP, SHIFT(KC_LBRC), SHIFT(KC_RBRC), \
-         KC_PGUP, KC_7, KC_8, KC_9, SHIFT(KC_8), \
+  KEYMAP(KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, \
          SHIFT(KC_3), KC_LEFT, KC_DOWN, KC_RIGHT, SHIFT(KC_4), \
          KC_PGDN, KC_4, KC_5, KC_6, SHIFT(KC_EQUAL), \
          KC_LBRC, KC_RBRC, SHIFT(KC_9), SHIFT(KC_0), SHIFT(KC_7), \

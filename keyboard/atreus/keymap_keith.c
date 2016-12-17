@@ -17,9 +17,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KEYMAP(KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, \
          KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, KC_SCLN, \
          KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, \
-         KC_LCTL, KC_LALT, KC_LGUI, KC_LSFT, KC_SPC,                         \
-         KC_ESC, KC_TAB,                                                     \
-         KC_BSPC, KC_FN0, KC_MINS, KC_QUOT, KC_ENT),                         \
+         KC_LCTL, KC_LALT, KC_LGUI, KC_LSFT, KC_SPC, \
+         KC_ESC, KC_TAB, \
+         KC_BSPC, KC_FN0, KC_MINS, KC_QUOT, KC_ENT), \
   /// Layer 1
   // Numer row from 1 to 0
   // Mixed bag row: grave/tilde, 5 blank, equal, left bracket [, right ], backslash
@@ -59,8 +59,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KEYMAP(KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, \
          KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, \
          KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, \
-         KC_LCTL, KC_LALT, KC_LGUI, KC_LSFT, KC_SPC,                         \
-         KC_ESC, KC_FN4,                                                     \
+         KC_LCTL, KC_LALT, KC_LGUI, KC_LSFT, KC_SPC, \
+         KC_ESC, KC_FN4, \
          KC_BSPC, KC_FN0, KC_MINS, KC_QUOT, KC_ENT)
 };
 

@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
          KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, \
          KC_FN1, KC_LALT, KC_LGUI, KC_LSFT, KC_SPC, \
          KC_ESC, KC_FN, \
-         KC_BSPC, KC_NO, KC_MINS, KC_QUOT, KC_ENT), \
+         KC_BSPC, KC_FN0, KC_MINS, KC_QUOT, KC_ENT), \
   /// Layer 2
   // blank row
   // blank row

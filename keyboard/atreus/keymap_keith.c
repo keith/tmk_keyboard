@@ -34,15 +34,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
          KC_LCTL, KC_LALT, KC_LGUI, KC_LSFT, KC_SPC, \
          KC_ESC, KC_FN, \
          KC_BSPC, KC_NO, KC_MINS, KC_QUOT, KC_ENT), \
-  /* 2: arrows and function keys */
-  KEYMAP(KC_INS, KC_HOME, KC_UP, KC_END, KC_PGUP, \
-         KC_UP, KC_F7, KC_F8, KC_F9, KC_F10, \
-         KC_DEL, KC_LEFT, KC_DOWN, KC_RIGHT, KC_PGDN, \
-         KC_DOWN, KC_F4, KC_F5, KC_F6, KC_F11,          \
-         KC_NO, KC__VOLUP, KC_NO, KC_NO, KC_FN3, \
-         KC_NO, KC_F1, KC_F2, KC_F3, KC_F12,            \
-         KC_NO, KC__VOLDOWN, KC_LGUI, KC_LSFT, KC_BSPC, KC_LCTL, \
-         KC_LALT, KC_SPC, KC_FN2, KC_PSCREEN, KC_SLCK, KC_PAUSE)
+  /// Layer 2
+  // blank row
+  // blank row
+  // blank row
+  /// Bottom Row
+  // 5 blank
+  // 2 blank
+  // blank, layer 0, blank, blank, bootloader
+  KEYMAP(KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, \
+         KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, \
+         KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, \
+         KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, \
+         KC_NO, KC_NO, \
+         KC_NO, KC_FN2, KC_NO, KC_NO, KC_FN3)
 };
 
 const uint16_t PROGMEM fn_actions[] = {

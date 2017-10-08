@@ -8,7 +8,7 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   /// Layer 0
   // Q row from Q to P
-  // A row from A to ; (no '/")
+  // A row from A to ; (no quotes)
   // Z row from Z to /
   /// Bottom Row
   // Ctrl, option/alt, GUI, shift, space
